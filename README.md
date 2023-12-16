@@ -8,3 +8,5 @@ Team members include
 
 
 Include your name and commit this
+So non from this group as veiw this, or open this rep to work on it?
+if you can see this, pls delete number 10, 11, and 12.
