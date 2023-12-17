@@ -4,6 +4,7 @@
     --white: (#ffffff);
     --black: (#000000);
     --semi-black:(#222222);
+    --background: (#FAFAFA);
 }
 
 
@@ -61,7 +62,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 20px 80px;
-    background-color: #FAFAFA;
+    background-color: var(--background);
     z-index: 999;
     position: sticky;
     top: 0;
@@ -89,13 +90,13 @@ body {
 
 #navbar li a:hover,
 #navbar li a.active {
-    color: #A812C0;
+    color: var(--blue);
 }
 
 .logo {
     display: flex;
     flex-basis: 38%;
-    color: #A812C0;
+    color:var(--blue);
     font-family: Campton;
     font-size: 24px;
     font-style: normal;
@@ -127,7 +128,7 @@ body {
 .firstpart>.logo{
     display: flex;
     flex-basis: 38%;
-    color: #A812C0;
+    color: var(--blue);
     font-family: Campton;
     font-size: 24px;
     font-style: normal;
@@ -137,7 +138,7 @@ body {
     align-items: center;
 }  
 .firstpart>.logo>span{
-    color: #2C2C2C;
+    color: var(--semi-black);
     font-family: Campton;
     font-size: 24px;
     font-style: normal;
@@ -150,7 +151,7 @@ body {
     align-items: center;
     text-decoration: none;
     flex-basis: 18%;
-    color: #2C2C2C;
+    color: var(--semi-black)
     font-family: Cambria;
     font-size: 14px;
     font-style: normal;
@@ -158,12 +159,12 @@ body {
     line-height: normal;
 }
 .firstpart>.home{
-    color: #A812C0;
+    color:var(--blue);
     font-weight: 700;
 }
 .firstpart>.home:hover{
     align-self: center;
-    border-bottom: 2px solid #A812C0;
+    border-bottom: 2px solid var(--blue);
 }
 
 #deployment {
