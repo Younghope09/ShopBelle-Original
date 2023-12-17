@@ -1,4 +1,18 @@
+:root {
+    --blue: rgb(137, 207, 240);
+    --purple: (#DDA0DD);
+    --white: (#ffffff);
+    --black: (#000000);
+    --semi-black: (#222222);
+    --background: (#FAFAFA);
+}
+
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--blue);
 }
