@@ -15,7 +15,8 @@
 }
 
 body{
-    background-color: var(--darker-blue);
+    background-color: #8EC5FC;
+        background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
 }
 
 #container {
@@ -24,13 +25,14 @@ body{
     height:100vh;
     display: flex;
     margin: 0 auto;
-    border: 3px solid #ff1493;
+    border: none;
     border-radius: 12px;
-    color: var(--white);
+    background-color: white !important;
 }
 .side{
     position:relative;
     width:40%;
+    color:rgb(29, 8, 8) !important;
     height:100%;
 
 }
@@ -73,7 +75,7 @@ body{
     font-size:16px;
     margin-bottom: 5px;
     display:inline-block;
-    color:#ffffff;
+    color:#413b3b;
     font-weight: 300;
     letter-spacing: 1px;
 }
@@ -89,7 +91,7 @@ body{
     border-radius: 10px;
 }
 .sign-up-form .form-box .input-box input[type="submit"]{
-    background: white;
+    background: var(--blue);
     color:#000000;
     outline:none;
     border:none;
