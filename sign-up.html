@@ -27,11 +27,15 @@
         <form>
           <div class="input-box">
             <span>First Name</span>
-            <input type="text" name="">
+            <input type="text" name="firstname" required>
           </div>
            <div class="input-box">
             <span>Last Name</span>
-            <input type="text" name="">
+            <input type="text" name="lastname" required>
+          </div>
+          <div class="input-box">
+            <span>Email</span>
+            <input type="email" name="email" required>
           </div>
           <div class="input-box">
             <span>Username</span>
@@ -57,5 +61,24 @@
 
     </div>
   </div>
+
+
+  <script>
+    document.getElementById('signup-form').addEventListener('submit', function (event) {
+      var firstName = document.getElementsByName('firstName')[0].value;
+      var lastName = document.getElementsByName('lastName')[0].value;
+      var username = document.getElementsByName('username')[0].value;
+      var password = document.getElementsByName('password')[0].value;
+
+      if (!firstName || !lastName || !username || !password) {
+        alert('Please fill out all fields.');
+        event.preventDefault();
+      } else {
+        // You can add further validation or form submission logic here
+        // For example, sending data to a server using AJAX
+        alert('Form submitted!');
+      }
+    });
+  </script>
 
 </body>
