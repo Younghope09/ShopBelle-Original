@@ -27,8 +27,8 @@
           <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
         </div>
         <span>or use your account</span>
-        <input type="email" placeholder="Email" />
-        <input type="password" placeholder="Password" />
+        <input type="email" placeholder="Email" required/>
+        <input type="password" placeholder="Password" required/>
         <a href="#">Forgot your password?</a>
         <button>Sign In</button>
       </form>
@@ -53,18 +53,28 @@
 </body>
 
 <script>
-  const signUpButton = document.getElementById('signUp');
     const signInButton = document.getElementById('signIn');
-    const container = document.getElementById('container');
+      const signInForm = document.getElementById('signInForm');
 
-    signUpButton.addEventListener('click', () => {
-      container.classList.add("right-panel-active");
-    });
+      signInButton.addEventListener('click', function () {
+        if (validateSignInForm()) {
+          signInForm.submit();
+        }
+      });
 
-    signInButton.addEventListener('click', () => {
-      container.classList.remove("right-panel-active");
-    });
+      function validateSignInForm() {
+        const emailInput = document.querySelector('#container .sign-in-container input[type="email"]');
+        const passwordInput = document.querySelector('#container .sign-in-container input[type="password"]');
 
+        if (!emailInput.value.trim() || !passwordInput.value.trim()) {
+          alert('Please fill in all required fields.');
+          return false;
+        }
+
+        // Additional validation logic can be added here
+
+        return true;
+      }
 </script>
 
 </html>
