@@ -118,3 +118,13 @@ body{
 .input-box p a{
     color: rgb(75, 75, 148);
 }
+
+@media (max-width: 768px) {
+    .side{
+        display: none;
+    }
+    .sign-up-form, .form-box {
+        height: auto;
+        width:70%;
+    }
+}
