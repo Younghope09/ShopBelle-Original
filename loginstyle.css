@@ -82,7 +82,7 @@ button:focus {
 
 button.ghost {
     background-color: transparent;
-    border-color: #FFFFFF;
+    border-color: none;
 }
 
 form {
@@ -133,12 +133,6 @@ input {
     transform: translateX(100%);
 }
 
-.sign-up-container {
-    left: 0;
-    width: 50%;
-    opacity: 0;
-    z-index: 1;
-}
 
 .container.right-panel-active .sign-up-container {
     transform: translateX(100%);
