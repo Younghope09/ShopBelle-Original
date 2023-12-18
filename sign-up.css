@@ -108,3 +108,11 @@ body{
     font-size:14px;
 }
 
+.input-box p{
+    color:#222222;
+
+}
+
+.input-box p a{
+    color: rgb(75, 75, 148);
+}
