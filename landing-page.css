@@ -37,7 +37,7 @@ header{
 .logo {
     display: flex;
     flex-basis: 38%;
-    color: var(--blue);
+    color: var(--semi-black);
     font-family: Campton;
     font-size: 24px;
     font-style: normal;
@@ -46,10 +46,23 @@ header{
 }
 
 .logo>span {
-    color: #2C2C2C;
+    color: var(--blue);
     font-family: Campton;
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
     line-height: 32px;
+}
+
+#navbar{
+    display:flex;
+}
+
+#navbar a{
+    font-size:var(--p-font);
+    color: var(--semi-black);
+    font-weight: 400;
+    padding:10px 25px;
+    margin: 0 5px;
+    background:red;
 }
