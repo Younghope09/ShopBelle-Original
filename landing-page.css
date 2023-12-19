@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+:root{
+    --blue: rgb(137, 207, 240);
+    --darker-blue: rgb(87, 144, 170);
+    --purple: (#DDA0DD);
+    --white: (#ffffff);
+    --black: (#000000);
+    --semi-black: (#222222);
+    --background: (#FAFAFA);
+    --big-font:4.2rem;
+    --h2-font:2.2rem;
+    --p-font:1rem;
+}
