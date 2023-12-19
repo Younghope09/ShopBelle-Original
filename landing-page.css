@@ -10,6 +10,7 @@
 :root{
     --blue: rgb(137, 207, 240);
     --darker-blue: rgb(87, 144, 170);
+    --grey:rgb(180, 180, 197);
     --purple: (#DDA0DD);
     --white: (#ffffff);
     --black: (#000000);
@@ -64,5 +65,47 @@ header{
     font-weight: 400;
     padding:10px 25px;
     margin: 0 5px;
-    background:red;
+    background: transparent;
+    border-radius: 30px;
+    transition: all .45s ease;
 }
+
+#navbar a:hover{
+    background:var(--grey);
+}
+
+#navbar a:active{
+    background: var(--grey);
+}
+
+.icons{
+    display:flex;
+    align-items: center;
+}
+
+.icons i{
+    height:50px;
+    width:50px;
+    background:#f1e3e3;
+    display:inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:50%;
+    color:black;
+    font-size:22px;
+    argin-right:25px;
+    margin-left:10px;
+    transition: all .45s ease;
+}
+
+.icons i:hover{
+    transform: scale(0.9);
+}
+#menu-icon{
+    color:var(--grey);
+    font-size:33px;
+    z-index:10001;
+    cursor:pointer;
+    display:none;
+}
+
