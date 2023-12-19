@@ -19,3 +19,37 @@
     --h2-font:2.2rem;
     --p-font:1rem;
 }
+
+header{
+    position:fixed;
+    right:0;
+    left:0;
+    width:100%;
+    z-index:1000;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+    padding:20px 15px;
+    border-bottom: 1px solid  var(--blue);
+}
+
+.logo {
+    display: flex;
+    flex-basis: 38%;
+    color: var(--blue);
+    font-family: Campton;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.logo>span {
+    color: #2C2C2C;
+    font-family: Campton;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+}
