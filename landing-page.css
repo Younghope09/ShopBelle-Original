@@ -324,5 +324,36 @@ span{
 }
 
 .cta{
-    background: url();
+    height:50vh;
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.b{
+    font-size:2rem;
+}
+.b span{
+    font-size:2.5rem;
+}
+.cta-text{
+    max-width: 500px;
+    margin-left:120px;
+}
+
+
+.cta-text .logo{
+    width:160px;
+    height:auto;
+    margin-bottom: 1rem;
+}
+.cta-text h3{
+    font-size: 2rem;
+    line-height:1;
+    margin-bottom: 1.5rem;
+}
+.cta-text p{
+    font-size:var(--p-font);
+    color:var(--semi-black);
+    font-weight: 500;
+    margin-bottom: 2.5rem;
 }
