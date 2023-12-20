@@ -357,3 +357,38 @@ span{
     font-weight: 500;
     margin-bottom: 2.5rem;
 }
+.contact{
+    padding:50px 11% 40px;
+}
+.main-contact{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    gap:2rem;
+    align-items: center;
+}
+.contact-content h5{
+    font-size:1.1rem;
+    margin-bottom: 20px;
+}
+.contact-content li{
+    margin-bottom: 12px;
+}
+
+.contact-content li a{
+    display:block;
+    font-size: 15px;
+    color: rgb(97, 95, 95);
+    font-weight: 400;
+    transition: all .45 ease;
+}
+.contact-content li a:hover{
+    color:var(--semi-black);
+    transform:translateX(-5px);
+}
+.end-text p{
+    text-align: center;
+    padding:20px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: grey;
+}
