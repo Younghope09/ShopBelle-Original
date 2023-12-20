@@ -254,6 +254,7 @@ span{
     position:relative;
 }
 .box-img img{
+    background-color: #f1f1f1;
     width:100%;
     height:auto;
     border-radius: 20px;
@@ -285,10 +286,30 @@ span{
     display:inline-block;
     padding:4px 16px;
     background: transparent;
-    border: 2px solid rgb(146, 124, 124);
-    color:rgb(0, 0, 0);
+    border: 2px solid rgb(163, 119, 119);
+    color:rgb(100, 66, 66);
     border-radius: 8px;
     font-size:15px;
     font-weight: 600;
     transition: all .45 ease;
+}
+
+.price:hover{
+    letter-spacing: 1px;
+}
+.rating{
+    font-size: 19px;
+    color:rgb(59, 54, 54);
+    margin-right: 4px;
+}
+.heart{
+    position:absolute;
+    height: 42px;
+    width:42px;
+    display: inline-flex;
+    top:20px;
+    right:25px;
+    align-items: center;
+    justify-content: center;
+    background: var(--background);
 }
