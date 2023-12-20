@@ -1,9 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+:root {
+    --blue: rgb(137, 207, 240);
+    --purple: (#DDA0DD);
+    --white: (#ffffff);
+    --black: (#000000);
+    --semi-black: (#222222);
+    --background: (#FAFAFA);
+}
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 h1{
@@ -92,13 +99,13 @@ body {
 
 #navbar li a:hover,
 #navbar li a.active {
-    color: #A812C0;
+    color: var(blue);
 }
 
 .logo {
     display: flex;
     flex-basis: 38%;
-    color: #A812C0;
+    color: var(--semi-black);
     font-family: Campton;
     font-size: 24px;
     font-style: normal;
@@ -107,7 +114,7 @@ body {
 }
 
 .logo>span{
-    color: #2C2C2C;
+    color: var(--blue);
     font-family: Campton;
     font-size: 24px;
     font-style: normal;

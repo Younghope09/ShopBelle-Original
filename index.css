@@ -14,7 +14,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 h1{
@@ -97,7 +97,6 @@ body {
     display: flex;
     flex-basis: 38%;
     color:var(--blue);
-    font-family: Campton;
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
@@ -151,7 +150,7 @@ body {
     align-items: center;
     text-decoration: none;
     flex-basis: 18%;
-    color: var(--semi-black)
+    color: var(--semi-black);
     font-family: Cambria;
     font-size: 14px;
     font-style: normal;
