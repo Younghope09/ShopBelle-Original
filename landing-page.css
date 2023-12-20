@@ -158,3 +158,32 @@ section{
     opacity: 0.8;
 
 }
+
+header.sticky{
+    background: rgb(255, 253, 249);
+    padding: 14px 11%;
+}
+
+.middle-text h2{
+    font-size: var(--h2-font);
+    color:var(--black);
+    font-weight: 600;
+}
+span{
+    color:var(--blue);
+}
+
+.feature-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    gap:2rem;
+    align-items: center;
+    margin-top:5rem;
+}
+
+.row{
+    padding: 40px 30px;
+    background: #e3ffe6;
+    border-radius: 20px;
+    transition: all .45 ease;
+}
