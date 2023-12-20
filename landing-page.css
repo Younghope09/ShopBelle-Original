@@ -297,12 +297,12 @@ span{
 .price:hover{
     letter-spacing: 1px;
 }
-.rating{
+.rating a{
     font-size: 19px;
     color:rgb(59, 54, 54);
     margin-right: 4px;
 }
-.heart{
+.heart i{
     position:absolute;
     height: 42px;
     width:42px;
@@ -312,4 +312,13 @@ span{
     align-items: center;
     justify-content: center;
     background: var(--background);
+    color: #ef4444;
+    font-size: 22px;
+    border-radius: 50%;
+    transition: all .45 ease;
+}
+.heart i:hover{
+    color:var(--background);
+    background: #ef4444;
+    cursor: pointer;
 }
