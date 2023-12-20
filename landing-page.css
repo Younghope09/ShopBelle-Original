@@ -318,7 +318,11 @@ span{
     transition: all .45 ease;
 }
 .heart i:hover{
-    color:var(--background);
+    color:white;
     background: #ef4444;
     cursor: pointer;
+}
+
+.cta{
+    background: url();
 }
