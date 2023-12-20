@@ -190,5 +190,14 @@ span{
 
 .main-row{
     display:flex;
-    
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap:2rem;
+}
+
+.row-img img{
+    width:170px;
+    height: auto;
+    max-width: 100%;
 }
