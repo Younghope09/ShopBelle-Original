@@ -31,8 +31,9 @@ header{
     align-items: center;
     justify-content: space-between;
     background: transparent;
-    padding:20px 15px;
+    padding:20px 11%;
     border-bottom: 1px solid  var(--blue);
+    transition: all .45 ease;
 }
 
 .logo {
@@ -109,3 +110,51 @@ header{
     display:none;
 }
 
+section{
+    padding:100px 11% 90px;
+}
+.home{
+    height:100vh;
+    width:100%;
+    background: rgb(200, 200, 245);
+    background-size:cover;
+    position:relative;
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap:1.5rem;
+}
+
+.home-img{
+    width:100%;
+    height:auto;
+
+}
+.home-text h4{
+    font-size: 22px;
+    font-weight:500;
+    color:var(--semi-black);
+}
+.home-text h1{
+    font-size: var(--big-font);
+    color: var(--black);
+    line-height: 1;
+    margin:15px 0.5px;
+}
+
+.btn{
+    display:inline-block;
+    padding:16px 30px;
+    background:var(--blue);
+    color:var(--semi-black);
+    font-size:15px;
+    letter-spacing: 1px;
+    border-radius: 30px;
+    transition: all .45s ease;
+}
+
+.btn:hover{
+    letter-spacing: 2px;
+    opacity: 0.8;
+
+}
