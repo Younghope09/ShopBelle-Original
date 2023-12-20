@@ -99,7 +99,7 @@ body {
 
 #navbar li a:hover,
 #navbar li a.active {
-    color: var(blue);
+    color: var(--blue);
 }
 
 .logo {
