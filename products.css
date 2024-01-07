@@ -141,6 +141,7 @@ header .icon-cart span{
     align-items: center;
     color:#fff;
     border-radius: 50%;
+    cursor:pointer;
     top:50%;
     right:-20px;
 }
