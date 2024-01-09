@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="checkout.css">
+
+</head>
+
+
+<body>
+
+<div class='container'>
+    <div class='window'>
+        <div class='order-info'>
+            <div class='order-info-content'>
+                <h2>Order Summary</h2>
+                <div class='line'></div>
+                <table class='order-table'>
+                    <tbody>
+                        <tr>
+                            <td><img src='image2/fgg-removebg-preview.png'
+                                    class='full-width'></img>
+                            </td>
+                            <td>
+                                <br> <span class='thin'>Sunglasses</span>
+                                <br> Black Eye Glasses<br> <span class='thin small'> Color: Black, 
+                                    10.5<br><br></span>
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class='price'>#9,095</div>
+                            </td>
+                        </tr>
+                    </tbody>
+
+                </table>
+                <div class='line'></div>
+                <table class='order-table'>
+                    <tbody>
+                        <tr>
+                            <td><img src='image2/gfggg-removebg-preview.png'
+                                    class='full-width'></img>
+                            </td>
+                            <td>
+                                <br> <span class='thin'>Fjällräven</span>
+                                <br>Silver Watch<br> <span class='thin small'> Color: Silver</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class='price'>#35,995</div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class='line'></div>
+                <table class='order-table'>
+                    <tbody>
+                        <tr>
+                            <td><img src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/3.jpg'
+                                    class='full-width'></img>
+                            </td>
+                            <td>
+                                <br> <span class='thin'>Flowy Shirt Dress</span>
+                                <br>Dress <br> <span class='thin small'> Color: White, Size: Medium</span>
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class='price'>#25,995</div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class='line'></div>
+                <div class='total'>
+                    <span style='float:left;'>
+                        <div class='thin dense'></div>
+                        <div class='thin dense'>Delivery</div>
+                        TOTAL
+                    </span>
+                    <span style='float:right; text-align:right;'>
+                        <div class='thin dense'></div>
+                        <div class='thin dense'>#60,995</div>
+                        #61,355
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class='credit-info'>
+            <div class='credit-info-content'>
+                <table class='half-input-table'>
+                    <tr>
+                        <td>Please select your card: </td>
+                        <td>
+                            <div class='dropdown' id='card-dropdown'>
+                                <div class='dropdown-btn' id='current-card'>Visa</div>
+                                <div class='dropdown-select'>
+                                    <ul>
+                                        <li>Master Card</li>
+                                        <li>American Express</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+                <img src='https://dl.dropboxusercontent.com/s/ubamyu6mzov5c80/visa_logo%20%281%29.png' height='80'
+                    class='credit-card-image' id='credit-card-image'></img>
+                Card Number
+                <input class='input-field'></input>
+                Card Holder
+                <input class='input-field'></input>
+                <table class='half-input-table'>
+                    <tr>
+                        <td> Expires
+                            <input class='input-field'></input>
+                        </td>
+                        <td>CVC
+                            <input class='input-field'></input>
+                        </td>
+                    </tr>
+                </table>
+                <button class='pay-btn'>Checkout</button>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<script src="checkout.js"></script>
+</body>
+</html>
