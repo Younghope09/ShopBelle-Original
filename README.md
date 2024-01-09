@@ -66,7 +66,7 @@ These websites helped us when we were stuck on how the layout of our website sho
 - Twitter - [ADEWALE ELIJAH](https://twitter.com/)
 
 - Website - [OLUWABUNMI AGBELESE](https://github.com/paulagbelex)
-- Twitter - [OLUWABUNMI AGBELESE](https://twitter.com/)
+- Twitter - [OLUWABUNMI AGBELESE](https://twitter.com/paulagbelex)
 
 - Website - [MARYAM GARBA](https://github.com/masha-a-m)
 - Twitter - [MARYAM GARBA](https://twitter.com/bookoverboys)
