@@ -10,49 +10,49 @@
         "name": "Samsung Galaxy A24 6.5 6GB RAM/128GB ROM",
         "price": 267000,
         "image": "img/samsung.jpg"
-    }
+    },
     {
         "id": 3,
         "name": "MTN 4G Wireless Router MF293N + Free 50GB Data On Activation",
         "price": 10000,
         "image": "img/mtn.jpg"
-    }
+    },
     {
         "id": 4,
         "name": "Samsung Galaxy A03 Core 6.5 2GB RAM/32GB ROM Android 11 - Bronze",
         "price": 94000,
         "image": "img/samsung a03.jpg"
-    }
+    },
     {
         "id": 5,
         "name": "Maybelline Fit Me Matte & Poreless Foundation 30Ml-364 Deep Bronze WithClay",
         "price": 7900,
         "image": "img/maybelline.jpg"
-    }
+    },
     {
         "id": 6,
         "name": "Cerave Daily Moisturizing Lotion-12 Oz 236 ML",
         "price": 7000,
         "image": "img/cerave.jpg"
-    }
+    },
     {
         "id": 7,
         "name": "Biore UV Aqua Rich Watery Essence Sunscreen SPF 50 (50ml)",
         "price": 3750,
         "image": "img/biove uv.jpg"
-    }
+    },
     {
         "id": 8,
         "name": "DR-Rashel Vitamin C Face Cream",
         "price": 5000,
         "image": "img/dr rashel face cream.jpg"
-    }
+    },
        {
         "id": 9,
         "name": "Maybelline Superstay Matte Ink Liquid Lipstick",
         "price": 10975,
         "image": "img/maybelling matte.jpg"
-    }
+    },
        {
         "id": 10,
         "name": "Milani Mineral Compact Face Powder - Deep 110",
