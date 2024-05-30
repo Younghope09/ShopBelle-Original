@@ -70,6 +70,7 @@ These websites helped us when we were stuck on how the layout of our website sho
 
 - Website - [MARYAM GARBA](https://github.com/masha-a-m)
 - Twitter - [MARYAM GARBA](https://twitter.com/bookoverboys)
+Twitter - [AGBO HOPE](https://x.com/Young_Hope09?t=6SRIJnyo3xOFyQoRDv48cw&s=09)
 
 
 ### Acknowledgement
